@@ -1,0 +1,67 @@
+Ciobanu Alexandra 314CD
+
+1. createNode
+am implementat o functie care aloca memorie si creaza un nod nou pentru 
+structura BandaNode
+
+2. createBanda
+am implementat o functie care aloca memorie si creaza o banda in care am 
+initializat lista. am ales sa initializez nodul santinel cu caracterul
+' '
+
+3. create_node
+functia data creaza un nod nou pentru coada Queue si ii aloc memorie
+pentru nod si pentru valoarea lui
+
+4. create_queue
+am implementat o functie care creaza o lista pentru coada Queue si am
+alocat memorie
+
+5. enQueue
+am adaugat un element la finalul cozii prin intermediul unui vector alocat 
+dinamic
+
+6. deQueue
+am eliminat un element de la inceputul cozii si am returnat pointerul alocat
+dinamic
+
+7. MOVE_RIGHT
+functia data deplaseaza nodul finger cu o pozitie mai la dreapta, in cazul in
+care nodul ajunge la sfarsitul benzii, aceasta functie creeaza un nod nou 
+initializat cu "#"
+
+8. MOVE_LEFT
+am implementat o functie care deplaseaza degetul cu o pozitie la stanga, 
+in cazul in care degetul se afla pe prima pozitie atunci nu se intampla 
+nimic
+
+9. MOVE_LEFT_CHAR
+functia data se deplaseaza cu o pozitie la stanga pana cand gaseste simbolul 
+specific si afiseaza mesajul "ERROR" cand se afla pe prima pozitie
+
+10. MOVE_RIGHT_CHAR
+functia data se deplaseaza cu o pozitie la dreapta pana gaseste simbolul 
+specific
+
+11. WRITE
+functia data actualizeza caracterul curent
+
+12. INSERT_LEFT
+am implementat o functie care implica inserarea si deplasarea degetului cu
+o pozitie la stanga, iar in cazul in care degetul se afla pe prima pozitie
+atunci se afiseaza mesajul ERROR
+
+13. INSERT_RIGHT
+am implimentat o functie care aloca dinamic memorie si deplaseaza degetul cu
+p pozitie la dreapta si insereaza un caracter
+
+14. SHOW_CURRENT
+aceasta functie determina caracterul din pozitia curenta
+
+15. SHOW
+aceasta functie afiseaza toata banda iar caracterul din pozitia curenta il
+plaseaza in ||
+
+16. int main()
+am parcurs toate comenzile necesare in afara de cele de tip UNDO/REDO si am
+implementat functiile, folosind funtiile de prelucrare a stringurilor
